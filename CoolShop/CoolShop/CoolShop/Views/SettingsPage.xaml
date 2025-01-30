@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="CoolShop.Views.SettingsPage"
+             Title="Настройки" BackgroundColor="{AppThemeBinding Light=White,Dark=#101010}">
+    <ContentPage.Content>
+        <StackLayout>
+            <Frame BackgroundColor="{AppThemeBinding Light=White,Dark=#101010}">
+                <Grid>
+                    <Label Text="Темная тема" FontSize="16"/>
+                    <Switch x:Name="theme" Toggled="theme_Toggled"/>
+                </Grid>
+            </Frame>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

@@ -1,0 +1,658 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\79600\\source\\repos\\CoolShop\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{0277687B-4649-40F6-814F-AB7220145D7E}|CoolShop\\CoolShop\\CoolShop.csproj|c:\\users\\79600\\source\\repos\\coolshop\\coolshop\\coolshop\\views\\profilepage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0277687B-4649-40F6-814F-AB7220145D7E}|CoolShop\\CoolShop\\CoolShop.csproj|solutionrelative:coolshop\\coolshop\\views\\profilepage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0277687B-4649-40F6-814F-AB7220145D7E}|CoolShop\\CoolShop\\CoolShop.csproj|c:\\users\\79600\\source\\repos\\coolshop\\coolshop\\coolshop\\views\\profilepage.xaml||{2974C621-7033-421A-B08A-11D27B021D1B}",
+      "RelativeMoniker": "D:0:0:{0277687B-4649-40F6-814F-AB7220145D7E}|CoolShop\\CoolShop\\CoolShop.csproj|solutionrelative:coolshop\\coolshop\\views\\profilepage.xaml||{2974C621-7033-421A-B08A-11D27B021D1B}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0277687B-4649-40F6-814F-AB7220145D7E}|CoolShop\\CoolShop\\CoolShop.csproj|c:\\users\\79600\\source\\repos\\coolshop\\coolshop\\coolshop\\views\\cartpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0277687B-4649-40F6-814F-AB7220145D7E}|CoolShop\\CoolShop\\CoolShop.csproj|solutionrelative:coolshop\\coolshop\\views\\cartpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0277687B-4649-40F6-814F-AB7220145D7E}|CoolShop\\CoolShop\\CoolShop.csproj|c:\\users\\79600\\source\\repos\\coolshop\\coolshop\\coolshop\\views\\makeorderpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0277687B-4649-40F6-814F-AB7220145D7E}|CoolShop\\CoolShop\\CoolShop.csproj|solutionrelative:coolshop\\coolshop\\views\\makeorderpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0277687B-4649-40F6-814F-AB7220145D7E}|CoolShop\\CoolShop\\CoolShop.csproj|c:\\users\\79600\\source\\repos\\coolshop\\coolshop\\coolshop\\views\\makeorderpage.xaml||{2974C621-7033-421A-B08A-11D27B021D1B}",
+      "RelativeMoniker": "D:0:0:{0277687B-4649-40F6-814F-AB7220145D7E}|CoolShop\\CoolShop\\CoolShop.csproj|solutionrelative:coolshop\\coolshop\\views\\makeorderpage.xaml||{2974C621-7033-421A-B08A-11D27B021D1B}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0277687B-4649-40F6-814F-AB7220145D7E}|CoolShop\\CoolShop\\CoolShop.csproj|c:\\users\\79600\\source\\repos\\coolshop\\coolshop\\coolshop\\services\\loaded.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0277687B-4649-40F6-814F-AB7220145D7E}|CoolShop\\CoolShop\\CoolShop.csproj|solutionrelative:coolshop\\coolshop\\services\\loaded.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0277687B-4649-40F6-814F-AB7220145D7E}|CoolShop\\CoolShop\\CoolShop.csproj|c:\\users\\79600\\source\\repos\\coolshop\\coolshop\\coolshop\\services\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0277687B-4649-40F6-814F-AB7220145D7E}|CoolShop\\CoolShop\\CoolShop.csproj|solutionrelative:coolshop\\coolshop\\services\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0277687B-4649-40F6-814F-AB7220145D7E}|CoolShop\\CoolShop\\CoolShop.csproj|c:\\users\\79600\\source\\repos\\coolshop\\coolshop\\coolshop\\viewmodels\\applicationvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0277687B-4649-40F6-814F-AB7220145D7E}|CoolShop\\CoolShop\\CoolShop.csproj|solutionrelative:coolshop\\coolshop\\viewmodels\\applicationvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0277687B-4649-40F6-814F-AB7220145D7E}|CoolShop\\CoolShop\\CoolShop.csproj|c:\\users\\79600\\source\\repos\\coolshop\\coolshop\\coolshop\\services\\clothservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0277687B-4649-40F6-814F-AB7220145D7E}|CoolShop\\CoolShop\\CoolShop.csproj|solutionrelative:coolshop\\coolshop\\services\\clothservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0277687B-4649-40F6-814F-AB7220145D7E}|CoolShop\\CoolShop\\CoolShop.csproj|c:\\users\\79600\\source\\repos\\coolshop\\coolshop\\coolshop\\services\\orderservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0277687B-4649-40F6-814F-AB7220145D7E}|CoolShop\\CoolShop\\CoolShop.csproj|solutionrelative:coolshop\\coolshop\\services\\orderservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0277687B-4649-40F6-814F-AB7220145D7E}|CoolShop\\CoolShop\\CoolShop.csproj|c:\\users\\79600\\source\\repos\\coolshop\\coolshop\\coolshop\\views\\citypage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0277687B-4649-40F6-814F-AB7220145D7E}|CoolShop\\CoolShop\\CoolShop.csproj|solutionrelative:coolshop\\coolshop\\views\\citypage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0277687B-4649-40F6-814F-AB7220145D7E}|CoolShop\\CoolShop\\CoolShop.csproj|c:\\users\\79600\\source\\repos\\coolshop\\coolshop\\coolshop\\views\\aboutpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0277687B-4649-40F6-814F-AB7220145D7E}|CoolShop\\CoolShop\\CoolShop.csproj|solutionrelative:coolshop\\coolshop\\views\\aboutpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0277687B-4649-40F6-814F-AB7220145D7E}|CoolShop\\CoolShop\\CoolShop.csproj|c:\\users\\79600\\source\\repos\\coolshop\\coolshop\\coolshop\\views\\aboutpage.xaml||{2974C621-7033-421A-B08A-11D27B021D1B}",
+      "RelativeMoniker": "D:0:0:{0277687B-4649-40F6-814F-AB7220145D7E}|CoolShop\\CoolShop\\CoolShop.csproj|solutionrelative:coolshop\\coolshop\\views\\aboutpage.xaml||{2974C621-7033-421A-B08A-11D27B021D1B}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0277687B-4649-40F6-814F-AB7220145D7E}|CoolShop\\CoolShop\\CoolShop.csproj|c:\\users\\79600\\source\\repos\\coolshop\\coolshop\\coolshop\\views\\authpage.xaml||{2974C621-7033-421A-B08A-11D27B021D1B}",
+      "RelativeMoniker": "D:0:0:{0277687B-4649-40F6-814F-AB7220145D7E}|CoolShop\\CoolShop\\CoolShop.csproj|solutionrelative:coolshop\\coolshop\\views\\authpage.xaml||{2974C621-7033-421A-B08A-11D27B021D1B}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0277687B-4649-40F6-814F-AB7220145D7E}|CoolShop\\CoolShop\\CoolShop.csproj|c:\\users\\79600\\source\\repos\\coolshop\\coolshop\\coolshop\\viewmodels\\cartvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0277687B-4649-40F6-814F-AB7220145D7E}|CoolShop\\CoolShop\\CoolShop.csproj|solutionrelative:coolshop\\coolshop\\viewmodels\\cartvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0277687B-4649-40F6-814F-AB7220145D7E}|CoolShop\\CoolShop\\CoolShop.csproj|c:\\users\\79600\\source\\repos\\coolshop\\coolshop\\coolshop\\views\\clothdetailpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0277687B-4649-40F6-814F-AB7220145D7E}|CoolShop\\CoolShop\\CoolShop.csproj|solutionrelative:coolshop\\coolshop\\views\\clothdetailpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0277687B-4649-40F6-814F-AB7220145D7E}|CoolShop\\CoolShop\\CoolShop.csproj|c:\\users\\79600\\source\\repos\\coolshop\\coolshop\\coolshop\\views\\clothdetailpage.xaml||{2974C621-7033-421A-B08A-11D27B021D1B}",
+      "RelativeMoniker": "D:0:0:{0277687B-4649-40F6-814F-AB7220145D7E}|CoolShop\\CoolShop\\CoolShop.csproj|solutionrelative:coolshop\\coolshop\\views\\clothdetailpage.xaml||{2974C621-7033-421A-B08A-11D27B021D1B}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0277687B-4649-40F6-814F-AB7220145D7E}|CoolShop\\CoolShop\\CoolShop.csproj|c:\\users\\79600\\source\\repos\\coolshop\\coolshop\\coolshop\\views\\cartpage.xaml||{2974C621-7033-421A-B08A-11D27B021D1B}",
+      "RelativeMoniker": "D:0:0:{0277687B-4649-40F6-814F-AB7220145D7E}|CoolShop\\CoolShop\\CoolShop.csproj|solutionrelative:coolshop\\coolshop\\views\\cartpage.xaml||{2974C621-7033-421A-B08A-11D27B021D1B}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0277687B-4649-40F6-814F-AB7220145D7E}|CoolShop\\CoolShop\\CoolShop.csproj|c:\\users\\79600\\source\\repos\\coolshop\\coolshop\\coolshop\\services\\constants.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0277687B-4649-40F6-814F-AB7220145D7E}|CoolShop\\CoolShop\\CoolShop.csproj|solutionrelative:coolshop\\coolshop\\services\\constants.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0277687B-4649-40F6-814F-AB7220145D7E}|CoolShop\\CoolShop\\CoolShop.csproj|c:\\users\\79600\\source\\repos\\coolshop\\coolshop\\coolshop\\views\\authpage.xaml.cs||{8B382828-6202-11D1-8870-0000F87579D2}|",
+      "RelativeMoniker": "D:0:0:{0277687B-4649-40F6-814F-AB7220145D7E}|CoolShop\\CoolShop\\CoolShop.csproj|solutionrelative:coolshop\\coolshop\\views\\authpage.xaml.cs||{8B382828-6202-11D1-8870-0000F87579D2}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0277687B-4649-40F6-814F-AB7220145D7E}|CoolShop\\CoolShop\\CoolShop.csproj|c:\\users\\79600\\source\\repos\\coolshop\\coolshop\\coolshop\\views\\searchpage.xaml||{2974C621-7033-421A-B08A-11D27B021D1B}",
+      "RelativeMoniker": "D:0:0:{0277687B-4649-40F6-814F-AB7220145D7E}|CoolShop\\CoolShop\\CoolShop.csproj|solutionrelative:coolshop\\coolshop\\views\\searchpage.xaml||{2974C621-7033-421A-B08A-11D27B021D1B}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0277687B-4649-40F6-814F-AB7220145D7E}|CoolShop\\CoolShop\\CoolShop.csproj|c:\\users\\79600\\source\\repos\\coolshop\\coolshop\\coolshop\\views\\searchpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0277687B-4649-40F6-814F-AB7220145D7E}|CoolShop\\CoolShop\\CoolShop.csproj|solutionrelative:coolshop\\coolshop\\views\\searchpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0277687B-4649-40F6-814F-AB7220145D7E}|CoolShop\\CoolShop\\CoolShop.csproj|c:\\users\\79600\\source\\repos\\coolshop\\coolshop\\coolshop\\views\\citypage.xaml||{2974C621-7033-421A-B08A-11D27B021D1B}",
+      "RelativeMoniker": "D:0:0:{0277687B-4649-40F6-814F-AB7220145D7E}|CoolShop\\CoolShop\\CoolShop.csproj|solutionrelative:coolshop\\coolshop\\views\\citypage.xaml||{2974C621-7033-421A-B08A-11D27B021D1B}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0277687B-4649-40F6-814F-AB7220145D7E}|CoolShop\\CoolShop\\CoolShop.csproj|c:\\users\\79600\\source\\repos\\coolshop\\coolshop\\coolshop\\models\\cloth.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0277687B-4649-40F6-814F-AB7220145D7E}|CoolShop\\CoolShop\\CoolShop.csproj|solutionrelative:coolshop\\coolshop\\models\\cloth.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0277687B-4649-40F6-814F-AB7220145D7E}|CoolShop\\CoolShop\\CoolShop.csproj|c:\\users\\79600\\source\\repos\\coolshop\\coolshop\\coolshop\\models\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0277687B-4649-40F6-814F-AB7220145D7E}|CoolShop\\CoolShop\\CoolShop.csproj|solutionrelative:coolshop\\coolshop\\models\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0277687B-4649-40F6-814F-AB7220145D7E}|CoolShop\\CoolShop\\CoolShop.csproj|c:\\users\\79600\\source\\repos\\coolshop\\coolshop\\coolshop\\models\\cartitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0277687B-4649-40F6-814F-AB7220145D7E}|CoolShop\\CoolShop\\CoolShop.csproj|solutionrelative:coolshop\\coolshop\\models\\cartitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0277687B-4649-40F6-814F-AB7220145D7E}|CoolShop\\CoolShop\\CoolShop.csproj|c:\\users\\79600\\source\\repos\\coolshop\\coolshop\\coolshop\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0277687B-4649-40F6-814F-AB7220145D7E}|CoolShop\\CoolShop\\CoolShop.csproj|solutionrelative:coolshop\\coolshop\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0277687B-4649-40F6-814F-AB7220145D7E}|CoolShop\\CoolShop\\CoolShop.csproj|c:\\users\\79600\\source\\repos\\coolshop\\coolshop\\coolshop\\appshell.xaml||{2974C621-7033-421A-B08A-11D27B021D1B}",
+      "RelativeMoniker": "D:0:0:{0277687B-4649-40F6-814F-AB7220145D7E}|CoolShop\\CoolShop\\CoolShop.csproj|solutionrelative:coolshop\\coolshop\\appshell.xaml||{2974C621-7033-421A-B08A-11D27B021D1B}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0277687B-4649-40F6-814F-AB7220145D7E}|CoolShop\\CoolShop\\CoolShop.csproj|c:\\users\\79600\\source\\repos\\coolshop\\coolshop\\coolshop\\appshell.xaml.cs||{8B382828-6202-11D1-8870-0000F87579D2}|",
+      "RelativeMoniker": "D:0:0:{0277687B-4649-40F6-814F-AB7220145D7E}|CoolShop\\CoolShop\\CoolShop.csproj|solutionrelative:coolshop\\coolshop\\appshell.xaml.cs||{8B382828-6202-11D1-8870-0000F87579D2}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0277687B-4649-40F6-814F-AB7220145D7E}|CoolShop\\CoolShop\\CoolShop.csproj|c:\\users\\79600\\source\\repos\\coolshop\\coolshop\\coolshop\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0277687B-4649-40F6-814F-AB7220145D7E}|CoolShop\\CoolShop\\CoolShop.csproj|solutionrelative:coolshop\\coolshop\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0277687B-4649-40F6-814F-AB7220145D7E}|CoolShop\\CoolShop\\CoolShop.csproj|c:\\users\\79600\\source\\repos\\coolshop\\coolshop\\coolshop\\views\\usersettings.xaml||{2974C621-7033-421A-B08A-11D27B021D1B}",
+      "RelativeMoniker": "D:0:0:{0277687B-4649-40F6-814F-AB7220145D7E}|CoolShop\\CoolShop\\CoolShop.csproj|solutionrelative:coolshop\\coolshop\\views\\usersettings.xaml||{2974C621-7033-421A-B08A-11D27B021D1B}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0277687B-4649-40F6-814F-AB7220145D7E}|CoolShop\\CoolShop\\CoolShop.csproj|c:\\users\\79600\\source\\repos\\coolshop\\coolshop\\coolshop\\views\\usersettings.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0277687B-4649-40F6-814F-AB7220145D7E}|CoolShop\\CoolShop\\CoolShop.csproj|solutionrelative:coolshop\\coolshop\\views\\usersettings.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8B47A645-6877-4285-8BC8-3419FBE22970}|CoolShop\\CoolShop.Android\\CoolShop.Android.csproj|C:\\Users\\79600\\source\\repos\\CoolShop\\coolshop\\coolshop.android\\properties\\androidmanifest.xml||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{8B47A645-6877-4285-8BC8-3419FBE22970}|CoolShop\\CoolShop.Android\\CoolShop.Android.csproj|solutionrelative:coolshop\\coolshop.android\\properties\\androidmanifest.xml||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8B47A645-6877-4285-8BC8-3419FBE22970}|CoolShop\\CoolShop.Android\\CoolShop.Android.csproj|C:\\Users\\79600\\source\\repos\\CoolShop\\coolshop\\coolshop.android\\resources\\values\\colors.xml||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{8B47A645-6877-4285-8BC8-3419FBE22970}|CoolShop\\CoolShop.Android\\CoolShop.Android.csproj|solutionrelative:coolshop\\coolshop.android\\resources\\values\\colors.xml||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8B47A645-6877-4285-8BC8-3419FBE22970}|CoolShop\\CoolShop.Android\\CoolShop.Android.csproj|C:\\Users\\79600\\source\\repos\\CoolShop\\coolshop\\coolshop.android\\resources\\values\\styles.xml||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{8B47A645-6877-4285-8BC8-3419FBE22970}|CoolShop\\CoolShop.Android\\CoolShop.Android.csproj|solutionrelative:coolshop\\coolshop.android\\resources\\values\\styles.xml||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8B47A645-6877-4285-8BC8-3419FBE22970}|CoolShop\\CoolShop.Android\\CoolShop.Android.csproj|C:\\Users\\79600\\source\\repos\\CoolShop\\coolshop\\coolshop.android\\resources\\resource.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8B47A645-6877-4285-8BC8-3419FBE22970}|CoolShop\\CoolShop.Android\\CoolShop.Android.csproj|solutionrelative:coolshop\\coolshop.android\\resources\\resource.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0277687B-4649-40F6-814F-AB7220145D7E}|CoolShop\\CoolShop\\CoolShop.csproj|c:\\users\\79600\\source\\repos\\coolshop\\coolshop\\coolshop\\app.xaml||{2974C621-7033-421A-B08A-11D27B021D1B}",
+      "RelativeMoniker": "D:0:0:{0277687B-4649-40F6-814F-AB7220145D7E}|CoolShop\\CoolShop\\CoolShop.csproj|solutionrelative:coolshop\\coolshop\\app.xaml||{2974C621-7033-421A-B08A-11D27B021D1B}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0277687B-4649-40F6-814F-AB7220145D7E}|CoolShop\\CoolShop\\CoolShop.csproj|c:\\users\\79600\\source\\repos\\coolshop\\coolshop\\coolshop\\gettingstarted.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{0277687B-4649-40F6-814F-AB7220145D7E}|CoolShop\\CoolShop\\CoolShop.csproj|solutionrelative:coolshop\\coolshop\\gettingstarted.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\79600\\source\\repos\\CoolShop\\CoolShop\\CoolShop\\obj\\Debug\\netstandard2.0\\Views\\MakeOrderPage.xaml.g.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:CoolShop\\CoolShop\\obj\\Debug\\netstandard2.0\\Views\\MakeOrderPage.xaml.g.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 141,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 27,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{0ad07096-bba9-4900-a651-0598d26f6d24}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "MakeOrderPage.xaml.g.cs",
+              "DocumentMoniker": "C:\\Users\\79600\\source\\repos\\CoolShop\\CoolShop\\CoolShop\\obj\\Debug\\netstandard2.0\\Views\\MakeOrderPage.xaml.g.cs",
+              "RelativeDocumentMoniker": "CoolShop\\CoolShop\\obj\\Debug\\netstandard2.0\\Views\\MakeOrderPage.xaml.g.cs",
+              "ToolTip": "C:\\Users\\79600\\source\\repos\\CoolShop\\CoolShop\\CoolShop\\obj\\Debug\\netstandard2.0\\Views\\MakeOrderPage.xaml.g.cs",
+              "RelativeToolTip": "CoolShop\\CoolShop\\obj\\Debug\\netstandard2.0\\Views\\MakeOrderPage.xaml.g.cs",
+              "ViewState": "AQIAAC0AAAAAAAAAAAAcwEQAAAAYAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-15T23:16:23.034Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Loaded.cs",
+              "DocumentMoniker": "C:\\Users\\79600\\source\\repos\\CoolShop\\CoolShop\\CoolShop\\Services\\Loaded.cs",
+              "RelativeDocumentMoniker": "CoolShop\\CoolShop\\Services\\Loaded.cs",
+              "ToolTip": "C:\\Users\\79600\\source\\repos\\CoolShop\\CoolShop\\CoolShop\\Services\\Loaded.cs",
+              "RelativeToolTip": "CoolShop\\CoolShop\\Services\\Loaded.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAzAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-15T22:48:37.755Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "MakeOrderPage.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\79600\\source\\repos\\CoolShop\\CoolShop\\CoolShop\\Views\\MakeOrderPage.xaml.cs",
+              "RelativeDocumentMoniker": "CoolShop\\CoolShop\\Views\\MakeOrderPage.xaml.cs",
+              "ToolTip": "C:\\Users\\79600\\source\\repos\\CoolShop\\CoolShop\\CoolShop\\Views\\MakeOrderPage.xaml.cs",
+              "RelativeToolTip": "CoolShop\\CoolShop\\Views\\MakeOrderPage.xaml.cs",
+              "ViewState": "AQIAAD0AAAAAAAAAAAAIwEsAAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-11T21:02:23.29Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "MakeOrderPage.xaml",
+              "DocumentMoniker": "C:\\Users\\79600\\source\\repos\\CoolShop\\CoolShop\\CoolShop\\Views\\MakeOrderPage.xaml",
+              "RelativeDocumentMoniker": "CoolShop\\CoolShop\\Views\\MakeOrderPage.xaml",
+              "ToolTip": "C:\\Users\\79600\\source\\repos\\CoolShop\\CoolShop\\CoolShop\\Views\\MakeOrderPage.xaml",
+              "RelativeToolTip": "CoolShop\\CoolShop\\Views\\MakeOrderPage.xaml",
+              "ViewState": "AQIAADoAAAAAAAAAAAAAAEkAAAAsAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-05-11T21:00:56.299Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "CityPage.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\79600\\source\\repos\\CoolShop\\CoolShop\\CoolShop\\Views\\CityPage.xaml.cs",
+              "RelativeDocumentMoniker": "CoolShop\\CoolShop\\Views\\CityPage.xaml.cs",
+              "ToolTip": "C:\\Users\\79600\\source\\repos\\CoolShop\\CoolShop\\CoolShop\\Views\\CityPage.xaml.cs",
+              "RelativeToolTip": "CoolShop\\CoolShop\\Views\\CityPage.xaml.cs",
+              "ViewState": "AQIAABgAAAAAAAAAAIA9wBsAAAAeAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-11T13:14:28.257Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "CityPage.xaml",
+              "DocumentMoniker": "C:\\Users\\79600\\source\\repos\\CoolShop\\CoolShop\\CoolShop\\Views\\CityPage.xaml",
+              "RelativeDocumentMoniker": "CoolShop\\CoolShop\\Views\\CityPage.xaml",
+              "ToolTip": "C:\\Users\\79600\\source\\repos\\CoolShop\\CoolShop\\CoolShop\\Views\\CityPage.xaml",
+              "RelativeToolTip": "CoolShop\\CoolShop\\Views\\CityPage.xaml",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAAAsAAAAiAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-05-11T13:11:26.59Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "App.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\79600\\source\\repos\\CoolShop\\CoolShop\\CoolShop\\App.xaml.cs",
+              "RelativeDocumentMoniker": "CoolShop\\CoolShop\\App.xaml.cs",
+              "ToolTip": "C:\\Users\\79600\\source\\repos\\CoolShop\\CoolShop\\CoolShop\\App.xaml.cs",
+              "RelativeToolTip": "CoolShop\\CoolShop\\App.xaml.cs",
+              "ViewState": "AQIAABIAAAAAAAAAAAAlwA4AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-03T13:16:51.791Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "CartItem.cs",
+              "DocumentMoniker": "C:\\Users\\79600\\source\\repos\\CoolShop\\CoolShop\\CoolShop\\Models\\CartItem.cs",
+              "RelativeDocumentMoniker": "CoolShop\\CoolShop\\Models\\CartItem.cs",
+              "ToolTip": "C:\\Users\\79600\\source\\repos\\CoolShop\\CoolShop\\CoolShop\\Models\\CartItem.cs",
+              "RelativeToolTip": "CoolShop\\CoolShop\\Models\\CartItem.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAAA4AAAAgAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-03T12:53:04.181Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "CartVM.cs",
+              "DocumentMoniker": "C:\\Users\\79600\\source\\repos\\CoolShop\\CoolShop\\CoolShop\\ViewModels\\CartVM.cs",
+              "RelativeDocumentMoniker": "CoolShop\\CoolShop\\ViewModels\\CartVM.cs",
+              "ToolTip": "C:\\Users\\79600\\source\\repos\\CoolShop\\CoolShop\\CoolShop\\ViewModels\\CartVM.cs",
+              "RelativeToolTip": "CoolShop\\CoolShop\\ViewModels\\CartVM.cs",
+              "ViewState": "AQIAACIAAAAAAAAAAAAQwDsAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-03T12:33:31.451Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "Order.cs",
+              "DocumentMoniker": "C:\\Users\\79600\\source\\repos\\CoolShop\\CoolShop\\CoolShop\\Models\\Order.cs",
+              "RelativeDocumentMoniker": "CoolShop\\CoolShop\\Models\\Order.cs",
+              "ToolTip": "C:\\Users\\79600\\source\\repos\\CoolShop\\CoolShop\\CoolShop\\Models\\Order.cs",
+              "RelativeToolTip": "CoolShop\\CoolShop\\Models\\Order.cs",
+              "ViewState": "AQIAAB4AAAAAAAAAAAA4wBIAAAAYAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-02T18:59:27.323Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "OrderService.cs",
+              "DocumentMoniker": "C:\\Users\\79600\\source\\repos\\CoolShop\\CoolShop\\CoolShop\\Services\\OrderService.cs",
+              "RelativeDocumentMoniker": "CoolShop\\CoolShop\\Services\\OrderService.cs",
+              "ToolTip": "C:\\Users\\79600\\source\\repos\\CoolShop\\CoolShop\\CoolShop\\Services\\OrderService.cs",
+              "RelativeToolTip": "CoolShop\\CoolShop\\Services\\OrderService.cs",
+              "ViewState": "AQIAAA0AAAAAAAAAAAAUwEMAAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-02T18:59:02.842Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "ClothDetailPage.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\79600\\source\\repos\\CoolShop\\CoolShop\\CoolShop\\Views\\ClothDetailPage.xaml.cs",
+              "RelativeDocumentMoniker": "CoolShop\\CoolShop\\Views\\ClothDetailPage.xaml.cs",
+              "ToolTip": "C:\\Users\\79600\\source\\repos\\CoolShop\\CoolShop\\CoolShop\\Views\\ClothDetailPage.xaml.cs",
+              "RelativeToolTip": "CoolShop\\CoolShop\\Views\\ClothDetailPage.xaml.cs",
+              "ViewState": "AQIAAEUAAAAAAAAAAAA6wGwAAAAaAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-23T04:00:55.248Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "ClothDetailPage.xaml",
+              "DocumentMoniker": "C:\\Users\\79600\\source\\repos\\CoolShop\\CoolShop\\CoolShop\\Views\\ClothDetailPage.xaml",
+              "RelativeDocumentMoniker": "CoolShop\\CoolShop\\Views\\ClothDetailPage.xaml",
+              "ToolTip": "C:\\Users\\79600\\source\\repos\\CoolShop\\CoolShop\\CoolShop\\Views\\ClothDetailPage.xaml",
+              "RelativeToolTip": "CoolShop\\CoolShop\\Views\\ClothDetailPage.xaml",
+              "ViewState": "AQIAABIAAAAAAAAAAAAAAAQAAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-04-23T04:00:51.563Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "AuthPage.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\79600\\source\\repos\\CoolShop\\CoolShop\\CoolShop\\Views\\AuthPage.xaml.cs",
+              "RelativeDocumentMoniker": "CoolShop\\CoolShop\\Views\\AuthPage.xaml.cs",
+              "ToolTip": "C:\\Users\\79600\\source\\repos\\CoolShop\\CoolShop\\CoolShop\\Views\\AuthPage.xaml.cs",
+              "RelativeToolTip": "CoolShop\\CoolShop\\Views\\AuthPage.xaml.cs",
+              "ViewState": "AQIAACcAAAAAAAAAAAAAwDYAAAARAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-16T20:53:55.394Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "ApplicationVM.cs",
+              "DocumentMoniker": "C:\\Users\\79600\\source\\repos\\CoolShop\\CoolShop\\CoolShop\\ViewModels\\ApplicationVM.cs",
+              "RelativeDocumentMoniker": "CoolShop\\CoolShop\\ViewModels\\ApplicationVM.cs",
+              "ToolTip": "C:\\Users\\79600\\source\\repos\\CoolShop\\CoolShop\\CoolShop\\ViewModels\\ApplicationVM.cs",
+              "RelativeToolTip": "CoolShop\\CoolShop\\ViewModels\\ApplicationVM.cs",
+              "ViewState": "AQIAANMAAAAAAAAAAAD4v9sAAAA8AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-16T17:10:36.85Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "UserSettings.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\79600\\source\\repos\\CoolShop\\CoolShop\\CoolShop\\Views\\UserSettings.xaml.cs",
+              "RelativeDocumentMoniker": "CoolShop\\CoolShop\\Views\\UserSettings.xaml.cs",
+              "ToolTip": "C:\\Users\\79600\\source\\repos\\CoolShop\\CoolShop\\CoolShop\\Views\\UserSettings.xaml.cs",
+              "RelativeToolTip": "CoolShop\\CoolShop\\Views\\UserSettings.xaml.cs",
+              "ViewState": "AQIAACkAAAAAAAAAAAAgwDoAAAAZAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-17T16:43:45.031Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "UserSettings.xaml",
+              "DocumentMoniker": "C:\\Users\\79600\\source\\repos\\CoolShop\\CoolShop\\CoolShop\\Views\\UserSettings.xaml",
+              "RelativeDocumentMoniker": "CoolShop\\CoolShop\\Views\\UserSettings.xaml",
+              "ToolTip": "C:\\Users\\79600\\source\\repos\\CoolShop\\CoolShop\\CoolShop\\Views\\UserSettings.xaml",
+              "RelativeToolTip": "CoolShop\\CoolShop\\Views\\UserSettings.xaml",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAABgAAABgAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-04-17T16:39:16.414Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "AndroidManifest.xml",
+              "DocumentMoniker": "C:\\Users\\79600\\source\\repos\\CoolShop\\CoolShop\\CoolShop.Android\\Properties\\AndroidManifest.xml",
+              "RelativeDocumentMoniker": "CoolShop\\CoolShop.Android\\Properties\\AndroidManifest.xml",
+              "ToolTip": "C:\\Users\\79600\\source\\repos\\CoolShop\\CoolShop\\CoolShop.Android\\Properties\\AndroidManifest.xml",
+              "RelativeToolTip": "CoolShop\\CoolShop.Android\\Properties\\AndroidManifest.xml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003576|",
+              "WhenOpened": "2024-04-17T00:00:26.023Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "CartPage.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\79600\\source\\repos\\CoolShop\\CoolShop\\CoolShop\\Views\\CartPage.xaml.cs",
+              "RelativeDocumentMoniker": "CoolShop\\CoolShop\\Views\\CartPage.xaml.cs",
+              "ToolTip": "C:\\Users\\79600\\source\\repos\\CoolShop\\CoolShop\\CoolShop\\Views\\CartPage.xaml.cs",
+              "RelativeToolTip": "CoolShop\\CoolShop\\Views\\CartPage.xaml.cs",
+              "ViewState": "AQIAACoAAAAAAAAAAAAIwDQAAAA7AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-16T21:09:31.156Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "Constants.cs",
+              "DocumentMoniker": "C:\\Users\\79600\\source\\repos\\CoolShop\\CoolShop\\CoolShop\\Services\\Constants.cs",
+              "RelativeDocumentMoniker": "CoolShop\\CoolShop\\Services\\Constants.cs",
+              "ToolTip": "C:\\Users\\79600\\source\\repos\\CoolShop\\CoolShop\\CoolShop\\Services\\Constants.cs",
+              "RelativeToolTip": "CoolShop\\CoolShop\\Services\\Constants.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAA7wBgAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-16T20:31:16.854Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "User.cs",
+              "DocumentMoniker": "C:\\Users\\79600\\source\\repos\\CoolShop\\CoolShop\\CoolShop\\Models\\User.cs",
+              "RelativeDocumentMoniker": "CoolShop\\CoolShop\\Models\\User.cs",
+              "ToolTip": "C:\\Users\\79600\\source\\repos\\CoolShop\\CoolShop\\CoolShop\\Models\\User.cs",
+              "RelativeToolTip": "CoolShop\\CoolShop\\Models\\User.cs",
+              "ViewState": "AQIAAA0AAAAAAAAAAAAywBIAAAAkAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-16T20:22:44.863Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "CartPage.xaml",
+              "DocumentMoniker": "C:\\Users\\79600\\source\\repos\\CoolShop\\CoolShop\\CoolShop\\Views\\CartPage.xaml",
+              "RelativeDocumentMoniker": "CoolShop\\CoolShop\\Views\\CartPage.xaml",
+              "ToolTip": "C:\\Users\\79600\\source\\repos\\CoolShop\\CoolShop\\CoolShop\\Views\\CartPage.xaml",
+              "RelativeToolTip": "CoolShop\\CoolShop\\Views\\CartPage.xaml",
+              "ViewState": "AQIAADMAAAAAAAAAAAAAABgAAAAeAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-04-16T19:42:19.868Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "styles.xml",
+              "DocumentMoniker": "C:\\Users\\79600\\source\\repos\\CoolShop\\CoolShop\\CoolShop.Android\\Resources\\values\\styles.xml",
+              "RelativeDocumentMoniker": "CoolShop\\CoolShop.Android\\Resources\\values\\styles.xml",
+              "ToolTip": "C:\\Users\\79600\\source\\repos\\CoolShop\\CoolShop\\CoolShop.Android\\Resources\\values\\styles.xml",
+              "RelativeToolTip": "CoolShop\\CoolShop.Android\\Resources\\values\\styles.xml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003576|",
+              "WhenOpened": "2024-04-16T19:21:46.082Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "colors.xml",
+              "DocumentMoniker": "C:\\Users\\79600\\source\\repos\\CoolShop\\CoolShop\\CoolShop.Android\\Resources\\values\\colors.xml",
+              "RelativeDocumentMoniker": "CoolShop\\CoolShop.Android\\Resources\\values\\colors.xml",
+              "ToolTip": "C:\\Users\\79600\\source\\repos\\CoolShop\\CoolShop\\CoolShop.Android\\Resources\\values\\colors.xml",
+              "RelativeToolTip": "CoolShop\\CoolShop.Android\\Resources\\values\\colors.xml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAtAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003576|",
+              "WhenOpened": "2024-04-16T19:18:16.317Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ProfilePage.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\79600\\source\\repos\\CoolShop\\CoolShop\\CoolShop\\Views\\ProfilePage.xaml.cs",
+              "RelativeDocumentMoniker": "CoolShop\\CoolShop\\Views\\ProfilePage.xaml.cs",
+              "ToolTip": "C:\\Users\\79600\\source\\repos\\CoolShop\\CoolShop\\CoolShop\\Views\\ProfilePage.xaml.cs",
+              "RelativeToolTip": "CoolShop\\CoolShop\\Views\\ProfilePage.xaml.cs",
+              "ViewState": "AQIAADkAAAAAAAAAAAAAAEMAAAAfAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-16T19:02:44.737Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "AuthPage.xaml",
+              "DocumentMoniker": "C:\\Users\\79600\\source\\repos\\CoolShop\\CoolShop\\CoolShop\\Views\\AuthPage.xaml",
+              "RelativeDocumentMoniker": "CoolShop\\CoolShop\\Views\\AuthPage.xaml",
+              "ToolTip": "C:\\Users\\79600\\source\\repos\\CoolShop\\CoolShop\\CoolShop\\Views\\AuthPage.xaml",
+              "RelativeToolTip": "CoolShop\\CoolShop\\Views\\AuthPage.xaml",
+              "ViewState": "AQIAACYAAAAAAAAAAAAqwE8AAAAWAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-04-16T18:58:25.447Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ProfilePage.xaml",
+              "DocumentMoniker": "C:\\Users\\79600\\source\\repos\\CoolShop\\CoolShop\\CoolShop\\Views\\ProfilePage.xaml",
+              "RelativeDocumentMoniker": "CoolShop\\CoolShop\\Views\\ProfilePage.xaml",
+              "ToolTip": "C:\\Users\\79600\\source\\repos\\CoolShop\\CoolShop\\CoolShop\\Views\\ProfilePage.xaml",
+              "RelativeToolTip": "CoolShop\\CoolShop\\Views\\ProfilePage.xaml",
+              "ViewState": "AQIAABMAAAAAAAAAAAAAACkAAAAkAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-04-16T17:24:45.708Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "ClothService.cs",
+              "DocumentMoniker": "C:\\Users\\79600\\source\\repos\\CoolShop\\CoolShop\\CoolShop\\Services\\ClothService.cs",
+              "RelativeDocumentMoniker": "CoolShop\\CoolShop\\Services\\ClothService.cs",
+              "ToolTip": "C:\\Users\\79600\\source\\repos\\CoolShop\\CoolShop\\CoolShop\\Services\\ClothService.cs",
+              "RelativeToolTip": "CoolShop\\CoolShop\\Services\\ClothService.cs",
+              "ViewState": "AQIAABUAAAAAAAAAAIAwwDUAAAA2AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-16T17:19:07.158Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "UserService.cs",
+              "DocumentMoniker": "C:\\Users\\79600\\source\\repos\\CoolShop\\CoolShop\\CoolShop\\Services\\UserService.cs",
+              "RelativeDocumentMoniker": "CoolShop\\CoolShop\\Services\\UserService.cs",
+              "ToolTip": "C:\\Users\\79600\\source\\repos\\CoolShop\\CoolShop\\CoolShop\\Services\\UserService.cs",
+              "RelativeToolTip": "CoolShop\\CoolShop\\Services\\UserService.cs",
+              "ViewState": "AQIAAC8AAAAAAAAAAAAIwEoAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-16T17:17:13.782Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "SearchPage.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\79600\\source\\repos\\CoolShop\\CoolShop\\CoolShop\\Views\\SearchPage.xaml.cs",
+              "RelativeDocumentMoniker": "CoolShop\\CoolShop\\Views\\SearchPage.xaml.cs",
+              "ToolTip": "C:\\Users\\79600\\source\\repos\\CoolShop\\CoolShop\\CoolShop\\Views\\SearchPage.xaml.cs",
+              "RelativeToolTip": "CoolShop\\CoolShop\\Views\\SearchPage.xaml.cs",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAAABEAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-16T17:08:20.371Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "SearchPage.xaml",
+              "DocumentMoniker": "C:\\Users\\79600\\source\\repos\\CoolShop\\CoolShop\\CoolShop\\Views\\SearchPage.xaml",
+              "RelativeDocumentMoniker": "CoolShop\\CoolShop\\Views\\SearchPage.xaml",
+              "ToolTip": "C:\\Users\\79600\\source\\repos\\CoolShop\\CoolShop\\CoolShop\\Views\\SearchPage.xaml",
+              "RelativeToolTip": "CoolShop\\CoolShop\\Views\\SearchPage.xaml",
+              "ViewState": "AQIAAAEAAAAAAAAAAAAAAAcAAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-04-16T17:02:30.841Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "Resource.designer.cs",
+              "DocumentMoniker": "C:\\Users\\79600\\source\\repos\\CoolShop\\CoolShop\\CoolShop.Android\\Resources\\Resource.designer.cs",
+              "RelativeDocumentMoniker": "CoolShop\\CoolShop.Android\\Resources\\Resource.designer.cs",
+              "ToolTip": "C:\\Users\\79600\\source\\repos\\CoolShop\\CoolShop\\CoolShop.Android\\Resources\\Resource.designer.cs",
+              "RelativeToolTip": "CoolShop\\CoolShop.Android\\Resources\\Resource.designer.cs",
+              "ViewState": "AQIAANRqAAAAAAAAAADgv+hqAAAzAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-09T20:38:26.392Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "AboutPage.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\79600\\source\\repos\\CoolShop\\CoolShop\\CoolShop\\Views\\AboutPage.xaml.cs",
+              "RelativeDocumentMoniker": "CoolShop\\CoolShop\\Views\\AboutPage.xaml.cs",
+              "ToolTip": "C:\\Users\\79600\\source\\repos\\CoolShop\\CoolShop\\CoolShop\\Views\\AboutPage.xaml.cs",
+              "RelativeToolTip": "CoolShop\\CoolShop\\Views\\AboutPage.xaml.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAACsAAAAmAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-09T20:36:02.831Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "Cloth.cs",
+              "DocumentMoniker": "C:\\Users\\79600\\source\\repos\\CoolShop\\CoolShop\\CoolShop\\Models\\Cloth.cs",
+              "RelativeDocumentMoniker": "CoolShop\\CoolShop\\Models\\Cloth.cs",
+              "ToolTip": "C:\\Users\\79600\\source\\repos\\CoolShop\\CoolShop\\CoolShop\\Models\\Cloth.cs",
+              "RelativeToolTip": "CoolShop\\CoolShop\\Models\\Cloth.cs",
+              "ViewState": "AQIAAAkAAAAAAAAAAAA1wBEAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-09T19:48:06.814Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "App.xaml",
+              "DocumentMoniker": "C:\\Users\\79600\\source\\repos\\CoolShop\\CoolShop\\CoolShop\\App.xaml",
+              "RelativeDocumentMoniker": "CoolShop\\CoolShop\\App.xaml",
+              "ToolTip": "C:\\Users\\79600\\source\\repos\\CoolShop\\CoolShop\\CoolShop\\App.xaml",
+              "RelativeToolTip": "CoolShop\\CoolShop\\App.xaml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAUAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-04-09T19:27:39.178Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "AppShell.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\79600\\source\\repos\\CoolShop\\CoolShop\\CoolShop\\AppShell.xaml.cs",
+              "RelativeDocumentMoniker": "CoolShop\\CoolShop\\AppShell.xaml.cs",
+              "ToolTip": "C:\\Users\\79600\\source\\repos\\CoolShop\\CoolShop\\CoolShop\\AppShell.xaml.cs",
+              "RelativeToolTip": "CoolShop\\CoolShop\\AppShell.xaml.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAawAoAAAAZAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-09T07:43:35.701Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "AppShell.xaml",
+              "DocumentMoniker": "C:\\Users\\79600\\source\\repos\\CoolShop\\CoolShop\\CoolShop\\AppShell.xaml",
+              "RelativeDocumentMoniker": "CoolShop\\CoolShop\\AppShell.xaml",
+              "ToolTip": "C:\\Users\\79600\\source\\repos\\CoolShop\\CoolShop\\CoolShop\\AppShell.xaml",
+              "RelativeToolTip": "CoolShop\\CoolShop\\AppShell.xaml",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAawBcAAABdAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-04-09T07:37:00.683Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "AboutPage.xaml",
+              "DocumentMoniker": "C:\\Users\\79600\\source\\repos\\CoolShop\\CoolShop\\CoolShop\\Views\\AboutPage.xaml",
+              "RelativeDocumentMoniker": "CoolShop\\CoolShop\\Views\\AboutPage.xaml",
+              "ToolTip": "C:\\Users\\79600\\source\\repos\\CoolShop\\CoolShop\\CoolShop\\Views\\AboutPage.xaml",
+              "RelativeToolTip": "CoolShop\\CoolShop\\Views\\AboutPage.xaml",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAAABkAAABVAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-04-09T07:35:00.372Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "GettingStarted.txt",
+              "DocumentMoniker": "C:\\Users\\79600\\source\\repos\\CoolShop\\CoolShop\\CoolShop\\GettingStarted.txt",
+              "RelativeDocumentMoniker": "CoolShop\\CoolShop\\GettingStarted.txt",
+              "ToolTip": "C:\\Users\\79600\\source\\repos\\CoolShop\\CoolShop\\CoolShop\\GettingStarted.txt",
+              "RelativeToolTip": "CoolShop\\CoolShop\\GettingStarted.txt",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
+              "WhenOpened": "2024-04-09T07:32:06.028Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

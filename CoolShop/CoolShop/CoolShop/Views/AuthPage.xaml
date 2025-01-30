@@ -1,0 +1,82 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<TabbedPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="CoolShop.Views.AuthPage" 
+            
+            BarBackgroundColor="{AppThemeBinding Light=White,Dark=#101010}" 
+            BarTextColor="{AppThemeBinding Light=DodgerBlue,Dark=White}">
+
+    <!--Pages can be added as references or inline-->
+    <ContentPage Title="Вход" BackgroundColor="{AppThemeBinding Light=White,Dark=#101010}">
+        <ContentPage.Resources>
+            <ResourceDictionary>
+                <Style TargetType="Frame">
+                    <Setter Property="BackgroundColor" Value="{AppThemeBinding Light=#fafafa,Dark=#101010}"/>
+                    <Setter Property="Padding" Value="0"/>
+                    <Setter Property="HasShadow" Value="True"/>
+                </Style>
+            </ResourceDictionary>
+        </ContentPage.Resources>
+        <StackLayout VerticalOptions="Center" Padding="20">
+            <Label Text="Авторизация" FontSize="Title" HorizontalTextAlignment="Center" Margin="0,0,0,20"/>
+            <Frame>
+                <Entry x:Name="mailtext" Placeholder="Почта"/>
+            </Frame>
+            <Frame>
+                <Entry x:Name="passtext" Placeholder="Пароль" IsPassword="True"/>
+            </Frame>
+            <Button Margin="0,10,0,0" Text="Войти" Clicked="Button_Clicked"/>
+        </StackLayout>
+    </ContentPage>
+    <ContentPage Title="Регистрация" BackgroundColor="{AppThemeBinding Light=White,Dark=#101010}">
+        <ContentPage.Resources>
+            <ResourceDictionary>
+                <Style TargetType="Frame">
+                    <Setter Property="BackgroundColor" Value="{AppThemeBinding Light=#fafafa,Dark=#101010}"/>
+                    <Setter Property="Padding" Value="0"/>
+                    <Setter Property="HasShadow" Value="True"/>
+                    <Setter Property="Margin" Value="0,5,0,0"/>
+                </Style>
+            </ResourceDictionary>
+        </ContentPage.Resources>
+        <StackLayout VerticalOptions="Center" Padding="20">
+            <Label Text="Регистрация" FontSize="Title" HorizontalTextAlignment="Center" Margin="0,0,0,20"/>
+            <Frame>
+                <Entry x:Name="entry1" Placeholder="Почта"/>
+            </Frame>
+            <Label x:Name="error1" IsVisible="false" Text="Ошибка: лялялялляляляля" TextColor="Red" FontSize="Caption"/>
+            
+            <Frame>
+                <Entry x:Name="entry2" Placeholder="Придумайте пароль" IsPassword="True"/>
+            </Frame>
+            <Label x:Name="error2"  IsVisible="false" Text="Ошибка: лялялялляляляля" TextColor="Red" FontSize="Caption"/>
+            
+            <Frame>
+                <Entry x:Name="entry3" Placeholder="Повторите пароль" IsPassword="True"/>
+            </Frame>
+            <Label x:Name="error3"  IsVisible="false" Text="Ошибка: лялялялляляляля" TextColor="Red" FontSize="Caption"/>
+            
+            <Frame>
+                <Entry x:Name="entry4" Placeholder="Фамилия"/>
+            </Frame>
+            <Label x:Name="error4"  IsVisible="false" Text="Ошибка: лялялялляляляля" TextColor="Red" FontSize="Caption"/>
+            
+            <Frame>
+                <Entry x:Name="entry5" Placeholder="Имя"/>
+            </Frame>
+            <Label x:Name="error5"  IsVisible="false" Text="Ошибка: лялялялляляляля" TextColor="Red" FontSize="Caption"/>
+            
+            <Frame>
+                <Entry x:Name="entry6" Placeholder="Отчество (при наличии)"/>
+            </Frame>
+            <Label x:Name="error6"  IsVisible="false" Text="Ошибка: лялялялляляляля" TextColor="Red" FontSize="Caption"/>
+            
+            <Frame>
+                <Entry x:Name="entry7" Placeholder="Телефон"/>
+            </Frame>
+            <Label x:Name="error7"  IsVisible="false" Text="Ошибка: лялялялляляляля" TextColor="Red" FontSize="Caption"/>
+            
+            <Button Margin="0,10,0,0" Text="Зарегистрироваться" Clicked="Button_Clicked_1"/>
+        </StackLayout>
+    </ContentPage>
+</TabbedPage>

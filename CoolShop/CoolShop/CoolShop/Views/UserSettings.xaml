@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="CoolShop.Views.UserSettings"
+             
+             BackgroundColor="{AppThemeBinding Light=White,Dark=#101010}">
+    <ContentPage.Content>
+        <StackLayout>
+            <StackLayout Margin="20">
+                <Label Text="Фамилия" />
+                <Entry x:Name="fName" Placeholder="Фамилия" Text="{Binding Path=Model.FName}" FontSize="Medium" />
+                <Label Text="Имя" />
+                <Entry x:Name="iName" Placeholder="Имя" Text="{Binding Path=Model.IName}" FontSize="Medium" />
+                <Label Text="Отчество" />
+                <Entry x:Name="oName" Placeholder="Отчество" Text="{Binding Path=Model.OName}" FontSize="Medium" />
+                <Label Text="Телефон" />
+                <Entry x:Name="phone" Placeholder="Телефон" Text="{Binding Path=Model.Phone}" FontSize="Medium" />
+                
+                <Label Text="Электронная почта" />
+                <Entry x:Name="mail" Placeholder="Почта" Text="{Binding Path=Model.Mail}" FontSize="Medium" />
+                
+            </StackLayout>
+            <StackLayout Orientation="Vertical" HorizontalOptions="CenterAndExpand">
+                <Button Text="Сохранить" Clicked="Button_Clicked"/>
+                <Button BackgroundColor="Red" Text="Выйти из системы" Clicked="Button_Clicked_2"/>
+                <Button BackgroundColor="Red" Text="Удалить аккаунт" Clicked="Button_Clicked_1" />
+            </StackLayout>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

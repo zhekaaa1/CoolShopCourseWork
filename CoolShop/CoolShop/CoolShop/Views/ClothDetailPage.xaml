@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="CoolShop.Views.ClothDetailPage"
+             BackgroundColor="{AppThemeBinding Light=White,Dark=#101010}" >
+    <ContentPage.Resources>
+        <Style x:Key="nameofcontent" TargetType="Label">
+            <Setter Property="Margin" Value="0,10,0,0"/>
+            <Setter Property="FontSize" Value="Small"/>
+            <Setter Property="TextColor" Value="Gray"/>
+        </Style>
+        <Style x:Key="content" TargetType="Label">
+            <Setter Property="FontSize" Value="Subtitle"/>
+            <Setter Property="Margin" Value="0,0,0,20"/>
+        </Style>
+    </ContentPage.Resources>
+    <ContentPage.Content>
+        <ScrollView>
+            <StackLayout Margin="20,0,20,0">
+                <Image Source="{Binding Model.ImgPath}"/>
+                <Label x:Name="name" Text="{Binding Model.Name}" FontSize="Medium" Margin="10"/>
+                <Label Text="{Binding Model.Price, StringFormat='{}{0} ₽'}" TextColor="DodgerBlue" FontSize="Title" Margin="10,0,0,10"/>
+                <Button Text="добавить в корзину" Clicked="Button_Clicked" x:Name="addtocart"/>
+                <Label Text="Описание" Style="{StaticResource nameofcontent}"/>
+                <Label Text="{Binding Model.Description}" Style="{StaticResource content}"/>
+                <Label Text="Категория" Style="{StaticResource nameofcontent}"/>
+                <Label Style="{StaticResource content}" x:Name="category"/>
+                <Label Text="Производитель" Style="{StaticResource nameofcontent}"/>
+                <Label Style="{StaticResource content}" x:Name="manufacturer"/>
+                <Label Text="Материалы" Style="{StaticResource nameofcontent}"/>
+                <Label Style="{StaticResource content}" Margin="0,0,0,0" x:Name="materialList"/>
+            </StackLayout>
+        </ScrollView>
+    </ContentPage.Content>
+</ContentPage>

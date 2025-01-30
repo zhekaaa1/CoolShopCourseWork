@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="CoolShop.Views.CityPage"
+             BackgroundColor="{AppThemeBinding Light=White,Dark=#101010}"
+             Title="Город">
+    <StackLayout>
+        <StackLayout Margin="20">
+            <ListView x:Name="cities" ItemsSource="{Binding cityList}">
+                <ListView.ItemTemplate>
+                    <DataTemplate>
+                        <ViewCell>
+                            <StackLayout>
+                                <Label>
+                                    <Label.FormattedText>
+                                        <FormattedString>
+                                            <Span FontSize="Medium" Text="{Binding Name}" x:Name=""/>
+                                            <Span Text=", "/>
+                                            <Span FontSize="Medium" Text="{Binding Country}" TextColor="Gray"/>
+                                        </FormattedString>
+                                    </Label.FormattedText>
+                                </Label>
+                            </StackLayout>
+                        </ViewCell>
+                    </DataTemplate>
+                </ListView.ItemTemplate>
+            </ListView>
+        </StackLayout>
+    </StackLayout>
+</ContentPage>

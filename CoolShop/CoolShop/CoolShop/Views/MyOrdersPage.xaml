@@ -1,0 +1,93 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="CoolShop.Views.MyOrdersPage"
+             Title="Мои заказы" BackgroundColor="{AppThemeBinding Dark=#101010, Light=White}">
+    <ContentPage.Content>
+        <ScrollView>
+            <StackLayout>
+                <StackLayout x:Name="EMPTYSL" VerticalOptions="FillAndExpand"/>
+                <StackLayout Margin="20,20,20,0" x:Name="ORDERSSL">
+                    <Label Text="Заказы" FontSize="Large"/>
+
+                    <!--ЛИСТВЬЮ-->
+                    <ListView ItemsSource="{Binding OrderList}" x:Name="orderlist" HasUnevenRows="True" >
+                        <ListView.ItemTemplate>
+                            <DataTemplate>
+                                <ViewCell>
+                                    <StackLayout>
+                                        <StackLayout Orientation="Horizontal" Margin="0,20,0,10">
+                                            <Image Source="card_jacket.png" x:Name="firstimg3" HeightRequest="70" VerticalOptions="Start"/>
+                                            <StackLayout Orientation="Vertical" Margin="20,0,0,0">
+                                                <Label FontSize="Medium">
+                                                    <Label.FormattedText>
+                                                        <FormattedString>
+                                                            <FormattedString.Spans>
+                                                                <Span Text="Заказ CS-"/>
+                                                                <Span x:Name="orderid3" Text="{Binding Order.Id}"/>
+                                                            </FormattedString.Spans>
+                                                        </FormattedString>
+                                                    </Label.FormattedText>
+                                                </Label>
+                                                <Label FontSize="Caption">
+                                                    <Label.FormattedText>
+                                                        <FormattedString>
+                                                            <FormattedString.Spans>
+                                                                <Span Text="Товаров в заказе: "/>
+                                                                <Span x:Name="totalquantity3" Text="{Binding TotalQuantity}" TextColor="Gray"/>
+                                                                <Span Text=" шт." TextColor="Gray"/>
+                                                            </FormattedString.Spans>
+                                                        </FormattedString>
+                                                    </Label.FormattedText>
+                                                </Label>
+                                                <Label FontSize="Caption">
+                                                    <Label.FormattedText>
+                                                        <FormattedString>
+                                                            <FormattedString.Spans>
+                                                                <Span Text="Стоимость: "/>
+                                                                <Span x:Name="totalcost3" Text="{Binding TotalCost}" TextColor="Gray"/>
+                                                                <Span Text=" ₽" TextColor="Gray"/>
+                                                            </FormattedString.Spans>
+                                                        </FormattedString>
+                                                    </Label.FormattedText>
+                                                </Label>
+                                            </StackLayout>
+                                        </StackLayout>
+                                        <Grid>
+                                            <Frame BackgroundColor="Green" Padding="5" x:Name="stframe3">
+                                                <Frame.Triggers>
+                                                    
+                                                    <DataTrigger TargetType="Frame" Binding="{Binding Status}" Value="Доставлено">
+                                                        <Setter Property="BackgroundColor" Value="Green" />
+                                                    </DataTrigger>
+                                                    <DataTrigger TargetType="Frame" Binding="{Binding Status}" Value="Доставляется">
+                                                        <Setter Property="BackgroundColor" Value="DodgerBlue" />
+                                                    </DataTrigger>
+                                                    <DataTrigger TargetType="Frame" Binding="{Binding Status}" Value="Отменен">
+                                                        <Setter Property="BackgroundColor" Value="Gray" />
+                                                    </DataTrigger>
+                                                    <DataTrigger TargetType="Frame" Binding="{Binding Status}" Value="Оплачено">
+                                                        <Setter Property="BackgroundColor" Value="YellowGreen" />
+                                                    </DataTrigger>
+                                                    <DataTrigger TargetType="Frame" Binding="{Binding Status}" Value="Не оплачено">
+                                                        <Setter Property="BackgroundColor" Value="Red" />
+                                                    </DataTrigger>
+                                                </Frame.Triggers>
+                                                <Label Text="{Binding Status}" HorizontalTextAlignment="Center" x:Name="st3" FontSize="Medium"/>
+                                            </Frame>
+                                        </Grid>
+                                        <Label Text="{Binding Action}" FontSize="Medium" Margin="0,5,0,0" HorizontalOptions="End">
+                                            <Label.GestureRecognizers>
+                                                <TapGestureRecognizer Command="{Binding OrderActionCommand}" CommandParameter="{Binding .}" />
+                                            </Label.GestureRecognizers>
+                                        </Label>
+                                    </StackLayout>
+                                </ViewCell>
+                            </DataTemplate>
+                        </ListView.ItemTemplate>
+                    </ListView>
+                </StackLayout>
+            </StackLayout>
+        </ScrollView>
+    </ContentPage.Content>
+</ContentPage>

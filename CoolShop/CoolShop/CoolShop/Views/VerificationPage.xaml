@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="CoolShop.Views.VerificationPage"
+             Title="Подтверждение профиля" BackgroundColor="{AppThemeBinding Dark=#101010, Light=White}">
+    <ContentPage.Content>
+        <StackLayout VerticalOptions="Center" Padding="20">
+            <Label Text="Введите код подтверждения" FontSize="Title" HorizontalTextAlignment="Center" Margin="0,0,0,20"/>
+            <Frame Padding="0" BackgroundColor="{AppThemeBinding Dark=#1f1f1f,Light=#f1f1f1}">
+                <Entry x:Name="CodeEntry" Placeholder="Код подтверждения"/>
+            </Frame>
+            <Label x:Name="ErrorLabel" IsVisible="false" Text="Ошибка: неверный код подтверждения" TextColor="Red" FontSize="Caption"/>
+            <Button Text="Подтвердить" Clicked="OnVerifyClicked"/>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

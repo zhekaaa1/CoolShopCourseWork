@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Shell xmlns="http://xamarin.com/schemas/2014/forms" 
+       xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+       xmlns:local="clr-namespace:CoolShop.Views"
+       Title="CoolShop"
+       x:Class="CoolShop.AppShell">
+
+    <!--
+        The overall app visual hierarchy is defined here, along with navigation.
+    
+        https://docs.microsoft.com/xamarin/xamarin-forms/app-fundamentals/shell/
+    -->
+
+    <Shell.Resources>
+        <ResourceDictionary>
+            <Style x:Key="BaseStyle" TargetType="Element">
+                <Setter Property="Shell.BackgroundColor" Value="{AppThemeBinding Light=White, Dark=#101010}" />
+                <Setter Property="Shell.ForegroundColor" Value="White" />
+                <Setter Property="Shell.TitleColor" Value="{AppThemeBinding Light=DodgerBlue, Dark=White}" />
+                <Setter Property="Shell.DisabledColor" Value="#B4FFFFFF" />
+                <Setter Property="Shell.UnselectedColor" Value="#95FFFFFF" />
+                <Setter Property="Shell.TabBarBackgroundColor" Value="{AppThemeBinding Light=white, Dark=#101010}" /> <!-- зад -->
+                <Setter Property="Shell.TabBarForegroundColor" Value="White"/>
+                <Setter Property="Shell.TabBarTitleColor" Value="{AppThemeBinding Light=DodgerBlue, Dark=White}"/> <!-- открыто -->
+                <Setter Property="Shell.TabBarUnselectedColor" Value="Gray"/> <!-- закрыто -->
+            </Style>
+            <Style TargetType="TabBar" BasedOn="{StaticResource BaseStyle}" />
+            <Style TargetType="FlyoutItem" BasedOn="{StaticResource BaseStyle}" />
+            <Style TargetType="Label">
+                <Setter Property="TextColor" Value="{AppThemeBinding Light=Black, Dark=White}"/>
+            </Style>
+            <Style TargetType="Button">
+                <Setter Property="BackgroundColor" Value="{AppThemeBinding Light=DodgerBlue, Dark=#101010}"/>
+                <Setter Property="BorderWidth" Value="1"/>
+                <Setter Property="BorderColor" Value="{AppThemeBinding Light=White, Dark=DodgerBlue}"/>
+            </Style>
+            <Style TargetType="SearchBar">
+                <Setter Property="TextColor" Value="{AppThemeBinding Light=Black, Dark=White}"/>
+                <Setter Property="Placeholder" Value="Мне повезёт..."/>
+                <Setter Property="PlaceholderColor" Value="Gray"/>
+            </Style>
+            <Style TargetType="Entry">
+                <Setter Property="PlaceholderColor" Value="Gray"/>
+                <Setter Property="TextColor" Value="{AppThemeBinding Light=Black, Dark=White}"/>
+            </Style>
+
+        </ResourceDictionary>
+    </Shell.Resources>
+
+    <TabBar>
+        <ShellContent Title="Главная" Icon="Vector1.png" Route="AboutPage" ContentTemplate="{DataTemplate local:AboutPage}"/>
+        <ShellContent Title="Поиск" Icon="VectorPoisk.png" ContentTemplate="{DataTemplate local:SearchPage}" />
+        <ShellContent Title="Корзина" Icon="Vector2.png" ContentTemplate="{DataTemplate local:CartPage}" />
+        <ShellContent Title="Профиль" Icon="Vector4.png" ContentTemplate="{DataTemplate local:ProfilePage}" />
+    </TabBar>
+
+    <!--
+        If you would like to navigate to this content you can do so by calling
+        await Shell.Current.GoToAsync("//LoginPage");
+    -->
+    
+
+
+</Shell>

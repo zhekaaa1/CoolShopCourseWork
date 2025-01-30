@@ -1,0 +1,150 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="CoolShop.Views.ChangeAvatar"
+             Title="Аватар"
+             BackgroundColor="{AppThemeBinding Light=White,Dark=#101010}">
+    <ContentPage.Resources>
+        <ResourceDictionary>
+            <Style TargetType="Image">
+                <Setter Property="HeightRequest" Value="85"/>
+                
+            </Style>
+            <Style TargetType="Frame">
+                <Setter Property="IsClippedToBounds" Value="True"/>
+                <Setter Property="CornerRadius" Value="90"/>
+                <Setter Property="Padding" Value="0"/>
+                <Setter Property="Margin" Value="10,0,10,0"/>
+            </Style>
+        </ResourceDictionary>
+    </ContentPage.Resources>
+    <ContentPage.Content>
+        <StackLayout Margin="20,0,20,0">
+            <Label Text="Выберите аватар из представленных ниже:" FontSize="Medium"/>
+            <StackLayout Orientation="Horizontal" >
+                <Frame>
+                    <Image Source="a1.png">
+                        <Image.GestureRecognizers>
+                            <TapGestureRecognizer Tapped="TapGestureRecognizer_Tapped"/>
+                        </Image.GestureRecognizers>
+                    </Image>
+                </Frame>
+                <Frame>
+                    <Image Source="a2.png">
+                        <Image.GestureRecognizers>
+                            <TapGestureRecognizer Tapped="TapGestureRecognizer_Tapped"/>
+                        </Image.GestureRecognizers>
+                    </Image>
+                </Frame>
+                <Frame>
+                    <Image Source="a3.png">
+                        <Image.GestureRecognizers>
+                            <TapGestureRecognizer Tapped="TapGestureRecognizer_Tapped"/>
+                        </Image.GestureRecognizers>
+                    </Image>
+                </Frame>
+            </StackLayout>
+            <StackLayout Orientation="Horizontal" >
+                <Frame>
+                    <Image Source="a4.png">
+                        <Image.GestureRecognizers>
+                            <TapGestureRecognizer Tapped="TapGestureRecognizer_Tapped"/>
+                        </Image.GestureRecognizers>
+                    </Image>
+                </Frame>
+                <Frame>
+                    <Image Source="a5.png">
+                        <Image.GestureRecognizers>
+                            <TapGestureRecognizer Tapped="TapGestureRecognizer_Tapped"/>
+                        </Image.GestureRecognizers>
+                    </Image>
+                </Frame>
+                <Frame>
+                    <Image Source="a6.png">
+                        <Image.GestureRecognizers>
+                            <TapGestureRecognizer Tapped="TapGestureRecognizer_Tapped"/>
+                        </Image.GestureRecognizers>
+                    </Image>
+                </Frame>
+            </StackLayout>
+            <StackLayout Orientation="Horizontal" >
+                <Frame>
+                    <Image Source="a7.png">
+                        <Image.GestureRecognizers>
+                            <TapGestureRecognizer Tapped="TapGestureRecognizer_Tapped"/>
+                        </Image.GestureRecognizers>
+                    </Image>
+                </Frame>
+                <Frame>
+                    <Image Source="a8.png">
+                        <Image.GestureRecognizers>
+                            <TapGestureRecognizer Tapped="TapGestureRecognizer_Tapped"/>
+                        </Image.GestureRecognizers>
+                    </Image>
+                </Frame>
+                <Frame>
+                    <Image Source="a9.png">
+                        <Image.GestureRecognizers>
+                            <TapGestureRecognizer Tapped="TapGestureRecognizer_Tapped"/>
+                        </Image.GestureRecognizers>
+                    </Image>
+                </Frame>
+            </StackLayout>
+            <StackLayout Orientation="Horizontal" >
+                <Frame>
+                    <Image Source="a10.png">
+                        <Image.GestureRecognizers>
+                            <TapGestureRecognizer Tapped="TapGestureRecognizer_Tapped"/>
+                        </Image.GestureRecognizers>
+                    </Image>
+                </Frame>
+                <Frame>
+                    <Image Source="a11.png">
+                        <Image.GestureRecognizers>
+                            <TapGestureRecognizer Tapped="TapGestureRecognizer_Tapped"/>
+                        </Image.GestureRecognizers>
+                    </Image>
+                </Frame>
+                <Frame>
+                    <Image Source="a12.png">
+                        <Image.GestureRecognizers>
+                            <TapGestureRecognizer Tapped="TapGestureRecognizer_Tapped"/>
+                        </Image.GestureRecognizers>
+                    </Image>
+                </Frame>
+            </StackLayout>
+            <StackLayout Orientation="Horizontal" >
+                <Frame>
+                    <Image Source="a13.png">
+                        <Image.GestureRecognizers>
+                            <TapGestureRecognizer Tapped="TapGestureRecognizer_Tapped"/>
+                        </Image.GestureRecognizers>
+                    </Image>
+                </Frame>
+                <Frame>
+                    <Image Source="a14.png">
+                        <Image.GestureRecognizers>
+                            <TapGestureRecognizer Tapped="TapGestureRecognizer_Tapped"/>
+                        </Image.GestureRecognizers>
+                    </Image>
+                </Frame>
+                <Frame>
+                    <Image Source="a15.png">
+                        <Image.GestureRecognizers>
+                            <TapGestureRecognizer Tapped="TapGestureRecognizer_Tapped"/>
+                        </Image.GestureRecognizers>
+                    </Image>
+                </Frame>
+            </StackLayout>
+            <StackLayout Orientation="Horizontal">
+                <Frame>
+                    <Image Source="a16.png">
+                        <Image.GestureRecognizers>
+                            <TapGestureRecognizer Tapped="TapGestureRecognizer_Tapped"/>
+                        </Image.GestureRecognizers>
+                    </Image>
+                </Frame>
+            </StackLayout>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

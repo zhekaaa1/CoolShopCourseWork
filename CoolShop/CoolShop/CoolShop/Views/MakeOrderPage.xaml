@@ -1,0 +1,123 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="CoolShop.Views.MakeOrderPage"
+             BackgroundColor="{AppThemeBinding Light=White,Dark=#101010}" 
+             Title="Оформление заказа">
+    <ContentPage.Resources>
+        <ResourceDictionary>
+            <Style TargetType="Entry">
+                <Setter Property="Margin" Value="10,0,0,0"/>
+            </Style>
+        </ResourceDictionary>
+    </ContentPage.Resources>
+    <ContentPage.Content>
+        <ScrollView>
+
+            <StackLayout Margin="20,0,20,0" Orientation="Vertical">
+
+
+
+                <Label FontSize="Large" Margin="0,20,0,20" Text="Товары в заказе"/>
+
+
+
+                <ListView ItemsSource="{Binding CartItems}" x:Name="cartitemz" HasUnevenRows="True" >
+                    <ListView.ItemTemplate>
+                        <DataTemplate>
+                            <ViewCell>
+                                <StackLayout Orientation="Horizontal" Margin="0,5,0,5">
+                                    <Image Source="{Binding Cloth.ImgPath}" HeightRequest="100"/>
+                                    <StackLayout Orientation="Vertical" Margin="10,0,0,0" VerticalOptions="Center">
+                                        <Label Text="{Binding Cloth.Name}" FontSize="Small" LineBreakMode="TailTruncation"/>
+                                        <Label Text="{Binding Cloth.Description}" TextColor="Gray" LineBreakMode="TailTruncation" FontSize="Caption"/>
+                                        <Label TextColor="Gray" FontSize="Medium">
+                                            <Label.FormattedText>
+                                                <FormattedString>
+                                                    <Span Text="{Binding Quantity}"/>
+                                                    <Span Text=" шт."/>
+                                                </FormattedString>
+                                            </Label.FormattedText>
+                                        </Label>
+                                    </StackLayout>
+                                </StackLayout>
+                            </ViewCell>
+                        </DataTemplate>
+                    </ListView.ItemTemplate>
+                </ListView>
+
+
+
+                <Label Text="Город" FontSize="Large"/>
+                <Picker x:Name="cities" SelectedIndex="0"/>
+
+
+
+                <Label Text="Способ получения" Margin="0,20,0,0" FontSize="Large"/>
+                <Frame BackgroundColor="{AppThemeBinding Light=Gray, Dark=#202020}" Padding="15" Margin="0,10,0,0">
+                    <StackLayout>
+                        <RadioButton TextColor="{AppThemeBinding Dark=White, Light=Black}" Content="Курьером" IsEnabled="False" IsChecked="True" Margin="0,0,0,10"/>
+                        <RadioButton TextColor="{AppThemeBinding Dark=White, Light=Black}" Content="В пункте выдачи" IsEnabled="False" IsChecked="False"/>
+                    </StackLayout>
+                </Frame>
+                <Label TextColor="Gray" Text="ⓘ Выбор пока недоступен. О доступности сообщим позднее." Margin="0,0,0,10"/>
+                
+                <Entry x:Name="index" Placeholder="Индекс"/>
+                <Entry x:Name="street" Placeholder="Улица"/>
+                <Entry x:Name="house" Placeholder="Дом"/>
+                <Entry x:Name="flat" Placeholder="Квартира/Офис"/>
+
+
+
+                <Label Text="Получатель" FontSize="Large" Margin="0,20,0,0"/>
+                <Entry x:Name="receiverIName" Placeholder="Имя"/>
+                <Entry x:Name="receiverPhone" Placeholder="Телефон"/>
+
+
+
+                <Label Text="Ваш заказ" FontSize="Large" Margin="0,20,0,0"/>
+                <Grid HeightRequest="130" Margin="0,20,0,20">
+                    <Label FontSize="18" HorizontalOptions="Start" Text="Товары:"/>
+                    <Label FontSize="18" HorizontalOptions="End">
+                        <Label.FormattedText>
+                            <FormattedString>
+                                <FormattedString.Spans>
+                                    <Span x:Name="totalquantity"/>
+                                    <Span Text=" шт."/>
+                                </FormattedString.Spans>
+                            </FormattedString>
+                        </Label.FormattedText>
+                    </Label>
+                    <Label FontSize="18" Text="Доставка:" HorizontalOptions="Start" VerticalOptions="Center"/>
+                    <Label FontSize="18" x:Name="delmethod" HorizontalOptions="End" VerticalOptions="Center"/>
+                    <Label FontSize="18" Text="ИТОГО: " VerticalOptions="End" HorizontalOptions="Start"/>
+                    <Label FontSize="18" HorizontalOptions="End" VerticalOptions="End">
+                        <Label.FormattedText>
+                            <FormattedString>
+                                <FormattedString.Spans>
+                                    <Span x:Name="totalcost"/>
+                                    <Span Text=" ₽"/>
+                                </FormattedString.Spans>
+                            </FormattedString>
+                        </Label.FormattedText>
+                    </Label>
+                </Grid>
+                <Label Margin="10,5,0,5">
+                    <Label.FormattedText>
+                        <FormattedString>
+                            <FormattedString.Spans>
+                                <Span Text="ⓘ Нажимая 'Оплатить заказ', вы принимаете "/>
+                                <Span Text="Условия" TextColor="Blue">
+                                    <Span.GestureRecognizers>
+                                        <TapGestureRecognizer Tapped="TapGestureRecognizer_Tapped"/>
+                                    </Span.GestureRecognizers>
+                                </Span>
+                            </FormattedString.Spans>
+                        </FormattedString>
+                    </Label.FormattedText>
+                </Label>
+                <Button Text="Оплатить заказ" x:Name="SUBMIT" Margin="0,0,0,40" Clicked="SUBMIT_Clicked"/>
+            </StackLayout>
+        </ScrollView>
+    </ContentPage.Content>
+</ContentPage>

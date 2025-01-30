@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<TabbedPage xmlns="http://xamarin.com/schemas/2014/forms"
+            xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+            x:Class="CoolShop.Views.AboutPage"
+            Title="CoolShop" BackgroundColor="{AppThemeBinding Light=White,Dark=#101010}" 
+            BarBackgroundColor="{AppThemeBinding Light=White,Dark=#101010}" 
+            BarTextColor="{AppThemeBinding Light=DodgerBlue,Dark=White}"
+            >
+
+    
+    
+    <ContentPage Title="Все" BackgroundColor="{AppThemeBinding Light=White,Dark=#101010}">
+        
+        <StackLayout>
+            
+            <Button Text="Изменить тему" Clicked="Button_Clicked"/>
+            
+                <ListView x:Name="clothesList1" ItemsSource="{Binding Clothes}" HasUnevenRows="True">
+                    <ListView.ItemTemplate>
+                        <DataTemplate>
+                            <ViewCell>
+                                <StackLayout Margin="20" Spacing="5">
+                                    <Image Source="{Binding ImgPath}" HeightRequest="350"/>
+                                    <Label Text="{Binding Name}" FontSize="Medium"/>
+                                    <Label Text="{Binding Description}" TextColor="Gray"/>
+                                    <Label Text="{Binding Price, StringFormat='{}{0} ₽'}" TextColor="DodgerBlue" FontSize="Large"/>
+                                    <Button Text="Купить"/>
+                                </StackLayout>
+                            </ViewCell>
+                        </DataTemplate>
+                    </ListView.ItemTemplate>
+                </ListView>
+            
+        </StackLayout>
+    </ContentPage>
+    <ContentPage Title="Футболки" BackgroundColor="{AppThemeBinding Light=White,Dark=#101010}"/>
+    <ContentPage Title="Обувь" BackgroundColor="{AppThemeBinding Light=White,Dark=#101010}"/>
+    <ContentPage Title="Худи" BackgroundColor="{AppThemeBinding Light=White,Dark=#101010}"/>
+</TabbedPage>

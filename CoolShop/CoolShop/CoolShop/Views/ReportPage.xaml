@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="CoolShop.Views.ReportPage"
+             Title="Связаться с нами"
+             BackgroundColor="{AppThemeBinding Light=White,Dark=#101010}">
+    <ContentPage.Resources>
+        <ResourceDictionary>
+            <Style TargetType="Frame">
+                <Setter Property="BackgroundColor" Value="{AppThemeBinding Dark=#1f1f1f,Light=#f1f1f1}"/>
+                <Setter Property="IsClippedToBounds" Value="True"/>
+                <Setter Property="Padding" Value="0"/>
+                <Setter Property="CornerRadius" Value="10"/>
+            </Style>
+        </ResourceDictionary>
+    </ContentPage.Resources>
+    <ContentPage.Content>
+        <ScrollView>
+            <StackLayout Padding="20">
+                <Label Text="Связаться с нами" FontSize="24" FontAttributes="Bold" HorizontalOptions="Center" />
+
+                <Label Text="Email:" FontSize="18" />
+                <Frame>
+                    <Entry Placeholder="Введите вашу почту" Keyboard="Email" x:Name="EmailEntry"/>
+                </Frame>
+
+                <Label Text="Описание проблемы:" FontSize="18" />
+                <Frame>
+                    <Editor PlaceholderColor="Gray" FontFamily="ComicSans" Placeholder="Введите описание вашей проблемы" HeightRequest="150" x:Name="DescriptionEditor" />
+                </Frame>
+
+                <Button Text="Отправить" Clicked="Button_Clicked"/>
+            </StackLayout>
+        </ScrollView>
+    </ContentPage.Content>
+</ContentPage>

@@ -1,0 +1,67 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="CoolShop.Views.SuccessMadeOrderPage"
+             BackgroundColor="{AppThemeBinding Dark=#101010, Light=White}">
+    <ContentPage.Content>
+        <ScrollView>
+            <StackLayout>
+
+                <StackLayout x:Name="MAINSL1" Margin="20,0,20,0" VerticalOptions="Center" IsVisible="False">
+                    <Image Source="SuccessfullOrder.png" HorizontalOptions="Center" Margin="0,0,0,20"/>
+                    <Label x:Name="success1" Text="Ваш заказ принят!" HorizontalOptions="Center" FontSize="Large"/>
+                    <Grid Margin="0,20,0,0" HeightRequest="75">
+                        <Label Text="Номер заказа:" HorizontalOptions="Start" VerticalOptions="Start" FontSize="Medium"/>
+                        <Label Text="Дата доставки:" HorizontalOptions="Start" VerticalOptions="End" FontSize="Medium"/>
+                        <Label x:Name="orderid1" HorizontalOptions="End" VerticalOptions="Start" FontSize="Medium"/>
+                        <Label x:Name="receivedate1" HorizontalOptions="End" VerticalOptions="End" FontSize="Medium"/>
+                    </Grid>
+                    <Label Text="Назовите последние 4 цифры заказа курьеру, чтобы получить заказ." HorizontalTextAlignment="Center" Margin="0,20,0,0" TextColor="Gray"/>
+                    <Button Text="На главную" Margin="0,40,0,0" Clicked="Button_Clicked"/>
+                </StackLayout>
+                
+                
+                <StackLayout IsVisible="True" x:Name="MAINSL2" Margin="20,0,20,0">
+                    <Image Source="SuccessfullOrder.png" HorizontalOptions="Center" Margin="0,0,0,20"/>
+                    <Label x:Name="success2" Text="Заказ доставлен!" HorizontalOptions="Center" FontSize="Large"/>
+                    <Grid Margin="0,20,0,0" HeightRequest="75">
+                        <Label Text="Номер заказа:" HorizontalOptions="Start" VerticalOptions="Start" FontSize="Medium"/>
+                        <Label Text="Дата доставки:" HorizontalOptions="Start" VerticalOptions="End" FontSize="Medium"/>
+                        <Label x:Name="orderid2" HorizontalOptions="End" VerticalOptions="Start" FontSize="Medium"/>
+                        <Label x:Name="receivedate2" HorizontalOptions="End" VerticalOptions="End" FontSize="Medium"/>
+                    </Grid>
+
+
+                    <Label x:Name="deltext" Text="Назовите последние 4 цифры заказа курьеру, чтобы получить заказ." HorizontalTextAlignment="Center" Margin="0,20,0,0" TextColor="Gray"/>
+
+                    <Label Text="Товары в заказе" FontSize="Large" Margin="0,10,0,20"/>
+                    <ListView ItemsSource="{Binding CartItems}" x:Name="cartitemz" HasUnevenRows="True" >
+                        <ListView.ItemTemplate>
+                            <DataTemplate>
+                                <ViewCell>
+                                    <StackLayout Orientation="Horizontal" Margin="0,5,0,5">
+                                        <Image Source="{Binding Cloth.ImgPath}" HeightRequest="100"/>
+                                        <StackLayout Orientation="Vertical" Margin="10,0,0,0" VerticalOptions="Center">
+                                            <Label Text="{Binding Cloth.Name}" FontSize="Small" LineBreakMode="TailTruncation"/>
+                                            <Label Text="{Binding Cloth.Description}" TextColor="Gray" LineBreakMode="TailTruncation" FontSize="Caption"/>
+                                            <Label TextColor="Gray" FontSize="Medium">
+                                                <Label.FormattedText>
+                                                    <FormattedString>
+                                                        <Span Text="{Binding Quantity}"/>
+                                                        <Span Text=" шт."/>
+                                                    </FormattedString>
+                                                </Label.FormattedText>
+                                            </Label>
+                                        </StackLayout>
+                                    </StackLayout>
+                                </ViewCell>
+                            </DataTemplate>
+                        </ListView.ItemTemplate>
+                    </ListView>
+
+                    <Button Text="На главную" Margin="0,40,0,30" Clicked="Button_Clicked"/>
+                </StackLayout>
+            </StackLayout>
+        </ScrollView>
+    </ContentPage.Content>
+</ContentPage>

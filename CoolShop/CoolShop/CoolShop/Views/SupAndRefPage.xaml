@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="CoolShop.Views.SupAndRefPage"
+             Title="Справка">
+    <ContentPage.Resources>
+        <ResourceDictionary>
+            <Style TargetType="Label" x:Key="TitleLabel">
+                <Setter Property="FontSize" Value="Large"/>
+                <Setter Property="FontAttributes" Value="Bold"/>
+
+            </Style>
+        </ResourceDictionary>
+    </ContentPage.Resources>
+    <ContentPage.Content>
+        <Grid>
+            <WebView x:Name="REFERENCE">
+                <WebView.Source>
+                    <HtmlWebViewSource>
+                        <HtmlWebViewSource.Html>
+                            <![CDATA[
+                            <html>
+                                <body>
+                                    <h1 align=center>Справка</h1>
+                                    <p>Добро пожаловать в приложение CoolShop!</p>
+                                    <p>Здесь вы можете найти информацию о том, как использовать наше приложение:</p>
+                                    <h2>1. Как создать аккаунт</h2>
+                                    <p>Для создания аккаунта, нажмите на кнопку 'Войти' на экране профиля и заполните форму.</p>
+                                    <h2>2. Как сделать заказ</h2>
+                                    <p>Для того чтобы сделать заказ, выберите товар(ы), добавьте его(их) в корзину и перейдите к оформлению заказа.</p>
+                                    <h2>3. Как связаться с поддержкой</h2>
+                                    <p>Для связи с поддержкой, перейдите на экран 'Связаться с нами' и заполните форму обратной связи.</p>
+                                    <h2>4. Как изменить свои данные</h2>
+                                    <p>Для изменения своих данных войдите в аккаунт и перейдите на экран 'Мой профиль'. 
+                                    Данные, имеющиеся на аккаунте автоматически будут введены, вам нужно будет их просто изменить.
+                                    <h2>5. Как удалить аккаунт</h2>
+                                    <p>Удалить аккаунт можно на экране 'Мой профиль'. Все данные, связанные с удаляемым аккаунтом, в том числе история заказов, отзывы, история поиска - будут утеряны.</p>
+                                    <p>В приложении использованы аватарки из приложения ShareIt. Но нам оно по барабану, не так ли?</p>
+                                    <span><i>© 2023-2024 CoolShopCompany ltd., все права защищены.</i></span>
+                                </body>
+                            </html>
+                        ]]>
+                        </HtmlWebViewSource.Html>
+                    </HtmlWebViewSource>
+                </WebView.Source>
+            </WebView>
+        </Grid>
+    </ContentPage.Content>
+</ContentPage>

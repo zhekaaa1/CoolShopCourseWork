@@ -1,0 +1,97 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="CoolShop.Views.ProfilePage"
+             BackgroundColor="{AppThemeBinding Light=White,Dark=#101010}"
+             Title="Профиль">
+
+    <ContentPage.Resources>
+        <ResourceDictionary>
+            <Style TargetType="Label" x:Key="aval">
+                <Setter Property="FontSize" Value="Medium"/>
+                <Setter Property="Padding" Value="30,0,0,0"/>
+                <Setter Property="BackgroundColor" Value="LimeGreen"/>
+                <Setter Property="VerticalTextAlignment" Value="Center"/>
+                <Setter Property="HeightRequest" Value="50"/>
+            </Style>
+            <Style TargetType="Label" x:Key="unaval" BasedOn="{StaticResource aval}">
+                <Setter Property="BackgroundColor" Value="Red"/>
+            </Style>
+        </ResourceDictionary>
+    </ContentPage.Resources>
+    <ContentPage.Content>
+        <ScrollView>
+            <StackLayout>
+                <Frame>
+                    <StackLayout Orientation="Horizontal">
+                        <AbsoluteLayout>
+                            <Frame BackgroundColor="Gray" HeightRequest="40" WidthRequest="40" CornerRadius="45">
+                                <Image Source="user.png" HeightRequest="40"/>
+                            </Frame>
+                        </AbsoluteLayout>
+                        <StackLayout Orientation="Vertical">
+                            <Label FontSize="18">
+                                <Label.FormattedText>
+                                    <FormattedString>
+                                        <FormattedString.Spans>
+                                            <Span x:Name="iName" Text="Евгений "/>
+                                            <Span x:Name="oName" Text="Юрьевич"/>
+                                        </FormattedString.Spans>
+                                    </FormattedString>
+                                </Label.FormattedText>
+                            </Label>
+                            <Label FontSize="18" x:Name="phonetext" Text="+79950953805"/>
+                        </StackLayout>
+                    </StackLayout>
+                </Frame>
+                
+                
+                
+                
+                
+                <!--Frame HeightRequest="100" BackgroundColor="{AppThemeBinding Light=White,Dark=#101010}" HasShadow="False">
+                    
+                    <StackLayout>
+                        
+                        <Label>
+                            <Label.FormattedText>
+                                <FormattedString>
+                                    <FormattedString.Spans>
+                                        <Span x:Name="iName" Text="Евгений "/>
+                                        <Span x:Name="oName" Text="Иванович"/>
+                                    </FormattedString.Spans>
+                                </FormattedString>
+                            </Label.FormattedText>
+                        </Label>
+                        <Label x:Name="phonetext" Text="+79950953805"/>
+                    </StackLayout>
+                </Frame-->
+                
+                <!-- IsVisible="{Binding LoggedIn} -->
+                <Button x:Name="ToLoginButton" Text="Войти" Clicked="Button_Clicked_1"/>
+                <StackLayout Margin="0,10,0,0">
+                    <Label Text="Город" Style="{StaticResource aval}">
+                        <Label.GestureRecognizers>
+                            <TapGestureRecognizer Tapped="TapGestureRecognizer_Tapped_1"/>
+                        </Label.GestureRecognizers>
+                    </Label>
+                    <Label Text="Связаться с нами" Style="{StaticResource unaval}"/>
+                    <Label Text="Справка" Style="{StaticResource unaval}"/>
+
+                    <!-- LoggedIn -->
+                    <Label x:Name="MyProfile" Margin="0,10,0,0" Text="Мой профиль" Style="{StaticResource aval}" >
+                        <Label.GestureRecognizers>
+                            <TapGestureRecognizer Tapped="TapGestureRecognizer_Tapped"/>
+                        </Label.GestureRecognizers>
+                    </Label>
+                    <!-- LoggedIn -->
+                    <Label x:Name="MyOrders" Text="Мои заказы" Style="{StaticResource unaval}" />
+                    <!-- LoggedIn -->
+                    <Label x:Name="MyFeedbacks" Text="Мои отзывы" Style="{StaticResource unaval}" />
+
+                    <Label Margin="0,10,0,0" Text="Настройки" Style="{StaticResource unaval}"/>
+                </StackLayout>
+            </StackLayout>
+        </ScrollView>
+    </ContentPage.Content>
+</ContentPage>
